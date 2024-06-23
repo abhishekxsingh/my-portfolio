@@ -1,7 +1,7 @@
 
 
 ```bash
-git clone 
+git clone https://github.com/abhishekxsingh/my-portfolio.git
 ```
 
 **Step 2:**
@@ -38,13 +38,6 @@ All scripts are defined in the `package.json` file. Here is a list of all script
 | `npm run lint`     | Run ESLint                                  |
 | `npm run ts:check` | Perform type-checking                       |
 
-## 🔒 Environment Variables
-
-Environment variables[^3] can be used for configuration. They must be set before running the app.
-
-> [Environment variables](https://en.wikipedia.org/wiki/Environment_variable) are variables that are
-> set in the operating system or shell, typically used to configure programs.
-
 **React.js 18 3D Portfolio** uses [EmailJS](https://www.emailjs.com/) as external service. You need
 to create an account and get the required credentials to run the app.
 
@@ -66,11 +59,5 @@ You can create an optimized production build with the following command:
 ```bash
 npm run build
 ```
-
-## 📋 License
-
-**Three.js 3D Portfolio** is open source software
-[licensed as MIT](https://opensource.org/license/mit/) and is free to use — See
-[LICENSE](https://github.com/ladunjexa/reactjs18-3d-portfolio/blob/main/LICENSE) for more details.
 
 ![Banner](https://raw.githubusercontent.com/abhishekxsingh/my-portfolio/752d276de4ca069b980a8b52d6d481978b36acbc/developer.jpg)
