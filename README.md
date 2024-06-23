@@ -72,3 +72,5 @@ npm run build
 **Three.js 3D Portfolio** is open source software
 [licensed as MIT](https://opensource.org/license/mit/) and is free to use — See
 [LICENSE](https://github.com/ladunjexa/reactjs18-3d-portfolio/blob/main/LICENSE) for more details.
+
+![Banner](https://raw.githubusercontent.com/abhishekxsingh/my-portfolio/752d276de4ca069b980a8b52d6d481978b36acbc/developer.jpg)
