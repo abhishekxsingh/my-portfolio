@@ -1,5 +1,5 @@
 # Use an official node runtime as a parent image
-FROM node:14-alpine
+FROM node:22.2.0-alpine
 
 # Set the working directory
 WORKDIR /app
@@ -19,8 +19,8 @@ RUN npm run build
 # Install serve globally
 RUN npm install -g serve
 
-# Expose port 5000
-EXPOSE 5000
+# Expose port 8080
+EXPOSE 3000
 
 # Run serve to serve the built app
-CMD ["serve", "-s", "dist", "-l", "5000"]
+CMD ["serve", "-s", "dist", "-l", "3000"]
